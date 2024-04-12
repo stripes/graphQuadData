@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4CB9D5B92BC969D600EB490A /* graphQuadDataApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB9D5B82BC969D600EB490A /* graphQuadDataApp.swift */; };
+		4CB9D5BB2BC969D600EB490A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB9D5BA2BC969D600EB490A /* ContentView.swift */; };
+		4CB9D5BD2BC969D700EB490A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CB9D5BC2BC969D700EB490A /* Assets.xcassets */; };
+		4CB9D5C02BC969D700EB490A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CB9D5BF2BC969D700EB490A /* Preview Assets.xcassets */; };
+		4CB9D5CA2BC969D700EB490A /* graphQuadDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB9D5C92BC969D700EB490A /* graphQuadDataTests.swift */; };
+		4CB9D5D42BC969D700EB490A /* graphQuadDataUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB9D5D32BC969D700EB490A /* graphQuadDataUITests.swift */; };
+		4CB9D5D62BC969D700EB490A /* graphQuadDataUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB9D5D52BC969D700EB490A /* graphQuadDataUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4CB9D5C62BC969D700EB490A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CB9D5AD2BC969D600EB490A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CB9D5B42BC969D600EB490A;
+			remoteInfo = graphQuadData;
+		};
+		4CB9D5D02BC969D700EB490A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CB9D5AD2BC969D600EB490A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CB9D5B42BC969D600EB490A;
+			remoteInfo = graphQuadData;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4CB9D5B52BC969D600EB490A /* graphQuadData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = graphQuadData.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CB9D5B82BC969D600EB490A /* graphQuadDataApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = graphQuadDataApp.swift; sourceTree = "<group>"; };
+		4CB9D5BA2BC969D600EB490A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4CB9D5BC2BC969D700EB490A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4CB9D5BF2BC969D700EB490A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4CB9D5C52BC969D700EB490A /* graphQuadDataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = graphQuadDataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CB9D5C92BC969D700EB490A /* graphQuadDataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = graphQuadDataTests.swift; sourceTree = "<group>"; };
+		4CB9D5CF2BC969D700EB490A /* graphQuadDataUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = graphQuadDataUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CB9D5D32BC969D700EB490A /* graphQuadDataUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = graphQuadDataUITests.swift; sourceTree = "<group>"; };
+		4CB9D5D52BC969D700EB490A /* graphQuadDataUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = graphQuadDataUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CB9D5B22BC969D600EB490A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CB9D5C22BC969D700EB490A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CB9D5CC2BC969D700EB490A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4CB9D5AC2BC969D600EB490A = {
+			isa = PBXGroup;
+			children = (
+				4CB9D5B72BC969D600EB490A /* graphQuadData */,
+				4CB9D5C82BC969D700EB490A /* graphQuadDataTests */,
+				4CB9D5D22BC969D700EB490A /* graphQuadDataUITests */,
+				4CB9D5B62BC969D600EB490A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4CB9D5B62BC969D600EB490A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CB9D5B52BC969D600EB490A /* graphQuadData.app */,
+				4CB9D5C52BC969D700EB490A /* graphQuadDataTests.xctest */,
+				4CB9D5CF2BC969D700EB490A /* graphQuadDataUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CB9D5B72BC969D600EB490A /* graphQuadData */ = {
+			isa = PBXGroup;
+			children = (
+				4CB9D5B82BC969D600EB490A /* graphQuadDataApp.swift */,
+				4CB9D5BA2BC969D600EB490A /* ContentView.swift */,
+				4CB9D5BC2BC969D700EB490A /* Assets.xcassets */,
+				4CB9D5BE2BC969D700EB490A /* Preview Content */,
+			);
+			path = graphQuadData;
+			sourceTree = "<group>";
+		};
+		4CB9D5BE2BC969D700EB490A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4CB9D5BF2BC969D700EB490A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4CB9D5C82BC969D700EB490A /* graphQuadDataTests */ = {
+			isa = PBXGroup;
+			children = (
+				4CB9D5C92BC969D700EB490A /* graphQuadDataTests.swift */,
+			);
+			path = graphQuadDataTests;
+			sourceTree = "<group>";
+		};
+		4CB9D5D22BC969D700EB490A /* graphQuadDataUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4CB9D5D32BC969D700EB490A /* graphQuadDataUITests.swift */,
+				4CB9D5D52BC969D700EB490A /* graphQuadDataUITestsLaunchTests.swift */,
+			);
+			path = graphQuadDataUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4CB9D5B42BC969D600EB490A /* graphQuadData */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CB9D5D92BC969D700EB490A /* Build configuration list for PBXNativeTarget "graphQuadData" */;
+			buildPhases = (
+				4CB9D5B12BC969D600EB490A /* Sources */,
+				4CB9D5B22BC969D600EB490A /* Frameworks */,
+				4CB9D5B32BC969D600EB490A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = graphQuadData;
+			productName = graphQuadData;
+			productReference = 4CB9D5B52BC969D600EB490A /* graphQuadData.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4CB9D5C42BC969D700EB490A /* graphQuadDataTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CB9D5DC2BC969D700EB490A /* Build configuration list for PBXNativeTarget "graphQuadDataTests" */;
+			buildPhases = (
+				4CB9D5C12BC969D700EB490A /* Sources */,
+				4CB9D5C22BC969D700EB490A /* Frameworks */,
+				4CB9D5C32BC969D700EB490A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CB9D5C72BC969D700EB490A /* PBXTargetDependency */,
+			);
+			name = graphQuadDataTests;
+			productName = graphQuadDataTests;
+			productReference = 4CB9D5C52BC969D700EB490A /* graphQuadDataTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4CB9D5CE2BC969D700EB490A /* graphQuadDataUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CB9D5DF2BC969D700EB490A /* Build configuration list for PBXNativeTarget "graphQuadDataUITests" */;
+			buildPhases = (
+				4CB9D5CB2BC969D700EB490A /* Sources */,
+				4CB9D5CC2BC969D700EB490A /* Frameworks */,
+				4CB9D5CD2BC969D700EB490A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CB9D5D12BC969D700EB490A /* PBXTargetDependency */,
+			);
+			name = graphQuadDataUITests;
+			productName = graphQuadDataUITests;
+			productReference = 4CB9D5CF2BC969D700EB490A /* graphQuadDataUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4CB9D5AD2BC969D600EB490A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					4CB9D5B42BC969D600EB490A = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					4CB9D5C42BC969D700EB490A = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 4CB9D5B42BC969D600EB490A;
+					};
+					4CB9D5CE2BC969D700EB490A = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 4CB9D5B42BC969D600EB490A;
+					};
+				};
+			};
+			buildConfigurationList = 4CB9D5B02BC969D600EB490A /* Build configuration list for PBXProject "graphQuadData" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4CB9D5AC2BC969D600EB490A;
+			productRefGroup = 4CB9D5B62BC969D600EB490A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CB9D5B42BC969D600EB490A /* graphQuadData */,
+				4CB9D5C42BC969D700EB490A /* graphQuadDataTests */,
+				4CB9D5CE2BC969D700EB490A /* graphQuadDataUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4CB9D5B32BC969D600EB490A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CB9D5C02BC969D700EB490A /* Preview Assets.xcassets in Resources */,
+				4CB9D5BD2BC969D700EB490A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CB9D5C32BC969D700EB490A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CB9D5CD2BC969D700EB490A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CB9D5B12BC969D600EB490A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CB9D5BB2BC969D600EB490A /* ContentView.swift in Sources */,
+				4CB9D5B92BC969D600EB490A /* graphQuadDataApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CB9D5C12BC969D700EB490A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CB9D5CA2BC969D700EB490A /* graphQuadDataTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CB9D5CB2BC969D700EB490A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CB9D5D62BC969D700EB490A /* graphQuadDataUITestsLaunchTests.swift in Sources */,
+				4CB9D5D42BC969D700EB490A /* graphQuadDataUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4CB9D5C72BC969D700EB490A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CB9D5B42BC969D600EB490A /* graphQuadData */;
+			targetProxy = 4CB9D5C62BC969D700EB490A /* PBXContainerItemProxy */;
+		};
+		4CB9D5D12BC969D700EB490A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CB9D5B42BC969D600EB490A /* graphQuadData */;
+			targetProxy = 4CB9D5D02BC969D700EB490A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4CB9D5D72BC969D700EB490A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4CB9D5D82BC969D700EB490A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4CB9D5DA2BC969D700EB490A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"graphQuadData/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ferral.tabby.graphQuadData;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4CB9D5DB2BC969D700EB490A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"graphQuadData/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ferral.tabby.graphQuadData;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4CB9D5DD2BC969D700EB490A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ferral.tabby.graphQuadDataTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/graphQuadData.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/graphQuadData";
+			};
+			name = Debug;
+		};
+		4CB9D5DE2BC969D700EB490A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ferral.tabby.graphQuadDataTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/graphQuadData.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/graphQuadData";
+			};
+			name = Release;
+		};
+		4CB9D5E02BC969D700EB490A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ferral.tabby.graphQuadDataUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = graphQuadData;
+			};
+			name = Debug;
+		};
+		4CB9D5E12BC969D700EB490A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ferral.tabby.graphQuadDataUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = graphQuadData;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4CB9D5B02BC969D600EB490A /* Build configuration list for PBXProject "graphQuadData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CB9D5D72BC969D700EB490A /* Debug */,
+				4CB9D5D82BC969D700EB490A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CB9D5D92BC969D700EB490A /* Build configuration list for PBXNativeTarget "graphQuadData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CB9D5DA2BC969D700EB490A /* Debug */,
+				4CB9D5DB2BC969D700EB490A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CB9D5DC2BC969D700EB490A /* Build configuration list for PBXNativeTarget "graphQuadDataTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CB9D5DD2BC969D700EB490A /* Debug */,
+				4CB9D5DE2BC969D700EB490A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CB9D5DF2BC969D700EB490A /* Build configuration list for PBXNativeTarget "graphQuadDataUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CB9D5E02BC969D700EB490A /* Debug */,
+				4CB9D5E12BC969D700EB490A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4CB9D5AD2BC969D600EB490A /* Project object */;
+}
